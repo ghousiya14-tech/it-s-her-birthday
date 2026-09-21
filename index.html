@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#f7efff">
+<title>BESTIE.EXE🎀</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="boot" class="screen boot-screen">
+  <div class="card boot-card">
+    <div class="mini">♡ FRIENDSHIP FILE</div>
+    <div class="bow">୨୧</div>
+    <h1>BESTIE.EXE🎀</h1>
+    <p>A tiny birthday surprise for BB...</p>
+    <div class="loading"><span></span></div>
+    <button id="openBtn" class="main-btn">OPEN ♡</button>
+  </div>
+</div>
+
+<audio id="bgMusic" src="audio/background-music.mp3" loop preload="auto"></audio>
+<button id="musicBtn" class="music-btn" aria-label="Toggle music">♫</button>
+
+<main id="app" class="app" hidden>
+  <section class="page active" data-page="0">
+    <div class="page-inner center">
+      <div class="decor">♡　✦　୨୧　✦　♡</div>
+      <div class="tag">A VERY IMPORTANT SYSTEM UPDATE</div>
+      <h2>HAPPY<br>BIRTHDAY,<br><span>BB😘</span></h2>
+      <p class="lead">Today is your day.<br>So here's a little piece of our friendship, made just for you.</p>
+      <button class="next-btn" data-next>LET'S GO ♡</button>
+    </div>
+  </section>
+
+  <section class="page" data-page="1">
+    <div class="page-inner">
+      <div class="section-head"><span>01</span><div><h2>our story ♡</h2><p>from PU days to now</p></div></div>
+      <div class="story-list">
+        <article><b>01</b><div><h3>PU days</h3><p>That is where our friendship began — and somehow, we're still here♾️.</p></div></article>
+        <article><b>02</b><div><h3>bestie coded</h3><p>No matter where u go my friendship follows🪐.</p></div></article>
+        <article><b>03</b><div><h3>Our meet-ups</h3><p>Food, gifts, random plans and those occasional days when we actually manage to meet🥲.</p></div></article>
+        <article><b>04</b><div><h3>Still besties</h3><p>Years changed. Colleges changed. The friendship didn't🍂.</p></div></article>
+        <article><b>05</b><div><h3>understanding</h3><p>The best  part of our friendship is that we don't have to explain ourselves... 🥹</p></div></article>
+        <article><b>06</b><div><h3>Dark Humour</h3><p>unmached💀 ♡</p></div></article> 
+
+      </div>
+      <button class="next-btn" data-next>NEXT →</button>
+    </div>
+  </section>
+
+  <section class="page" data-page="2">
+    <div class="page-inner memories-page">
+      <div class="section-head"><span>02</span><div><h2>our memories ♡</h2><p>just us. no captions.</p></div></div>
+      <div id="collage" class="photo-grid"></div>
+      <button class="next-btn" data-next>NEXT →</button>
+    </div>
+  </section>
+
+  <section class="page" data-page="3">
+    <div class="page-inner">
+      <div class="section-head"><span>03</span><div><h2>friendship stats</h2><p>scientifically questionable😏.</p></div></div>
+      <div class="stats">
+        <div><small>RANDOM TALKS</small><strong>∞</strong></div>
+        <div><small>INSIDE JOKES</small><strong>CLASSIFIED</strong></div>
+        <div><small>UNNECESSARY LAUGHTER</small><strong>99.9%</strong></div>
+        <div><small>MEMORIES</small><strong>COUNTLESS</strong></div>
+        <div><small>DARK HUMOR</small><strong>200%</strong></div>
+        <div><small>EATING OUT</small><strong>EVERY MEET-UP</strong></div>
+      
+      </div>
+      <button class="next-btn" data-next>NEXT →</button>
+    </div>
+  </section>
+
+  <section class="page" data-page="4">
+    <div class="page-inner">
+      <div class="section-head"><span>04</span><div><h2>bestie verification ♡</h2><p>one tiny test...</p></div></div>
+      <div id="quizBox" class="quiz-box"></div>
+    </div>
+  </section>
+
+  <section class="page" data-page="5">
+    <div class="page-inner center">
+      <div class="section-head centered"><span>05</span><div><h2>a message for BB♥️</h2><p>from forever friend♡</p></div></div>
+      <div class="letter">
+        <div class="sticker">♡</div>
+        <p class="letter-label">TO THE DEAREST ONE...</p>
+        <h3>Dear BB🎀,</h3>
+        <p>I hope this birthday reminds you just how loved, appreciated and special you are. From our PU days to all the random conversations, food plans, gifts and project discussions✨, I'm genuinely grateful that our friendship stayed with us through all the college chaos🍂.</p>
+        <p>Different colleges never really made us feel far apart♾️. Here's to more memories, more laughter and many more years of being us. 💞</p>
+        <P>Happy Birthday once again ,Idiot😅💗 hope life takes you to beautiful places,blesses every step you take, and gives u all the happiness you deserve-and yess,i better be there for all of it😁😜</P>
+        <p class="signature">— your Alina🎀 </p>
+      </div>
+      <button class="next-btn" data-next>NEXT →</button>
+    </div>
+  </section>
+
+  <section class="page" data-page="6">
+    <div class="page-inner center final-page">
+      <div class="file-card">
+        <div class="file-icon">♡</div>
+        <div class="tag">FILE FOUND</div>
+        <h2>FOREVER.dat</h2>
+        <p>Some people become memories.<br>Some people become family.</p>
+        <div class="forever">BESTIE.EXE🎀 HAS NO UNINSTALL OPTION. ♡</div>
+        <h3>Happy Birthday, BB💗</h3>
+      </div>
+      <button id="restartBtn" class="next-btn">↻ START AGAIN</button>
+    </div>
+  </section>
+</main>
+
+<div id="lightbox" class="lightbox" hidden><button id="closeLightbox" aria-label="Close">×</button><img id="lightboxImg" alt="Friendship memory"></div>
+<script src="script.js"></script>
+</body>
+</html>
